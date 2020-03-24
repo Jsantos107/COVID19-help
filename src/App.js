@@ -6,10 +6,13 @@ import './App.css';
   render(){
     return (
       <div className="App">
-        <header>
-          <h1>COVID-19</h1>
+        <header className='header'>
+          <img src='./CovidLogo.png' alt='covid-19HELP' />
+          <ul className='nav-bar'>
+            
+          </ul>
         </header>
-        <main>
+        <main className='main'>
           <h2>Something</h2>
         </main>
       </div>
