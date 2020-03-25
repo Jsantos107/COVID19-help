@@ -1,16 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap');
+
+body{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
 .header{
   background-color: black;
-  margin: 0px 0px 10px;
+  margin: 0px 0px 0px;
   box-shadow: 10px 10px 5px #aaaaaa;
   position: sticky;
   position: -webkit-sticky;
 }
 .header img{
   margin-left: 20px;
-
 }
 .main{
   text-align: center;
+}
+
+.side-countries{
+  background-color: black;
+  color: white;
+  height: 120%;
+  width: 200px;
+  position: absolute;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+.side-countries-title{
+  color: red;
+  background-color: black;
+  position: sticky;
+  top: 0px;
+}
+.side-countries-list{
+  list-style: none;
 }
 
 .map {
