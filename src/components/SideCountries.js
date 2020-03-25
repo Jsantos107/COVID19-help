@@ -1,8 +1,12 @@
 import React from 'react'
 
-export default function SideCountries({covidInfo}){
+export default function SideCountries({covidInfo, showCountry}){
+    const handleClick = (countriesInfo) => {
+        return showCountry(countriesInfo)
+    }
+
     const showCountries = covidInfo.map(countriesInfo =>
-            <li>{countriesInfo.Country}</li>
+            <li onClick={() => handleClick(countriesInfo)}>{countriesInfo.Country}</li>
         )
     return(
         <div className="side-countries">
@@ -11,6 +15,7 @@ export default function SideCountries({covidInfo}){
             </div>
             <ul className='side-countries-list'>
                 {showCountries}
+                <br></br>
             </ul>
         </div>
     )
