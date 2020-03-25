@@ -10,7 +10,7 @@ export class MapContainer extends Component {
   render() {
     return (
     <div className='map'>
-        <h1>Map of number infected</h1>
+        <h1>Map of Number Infected</h1>
         <Map
             google={this.props.google}
             zoom={3}
