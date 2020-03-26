@@ -5,12 +5,38 @@ body{
   overflow: hidden;
 }
 .header{
+  align-items: center;
   background-color: black;
+  display: flex;
+  justify-content: flex-end;
   margin: 0px 0px 0px;
+  padding: 30px -10%;
 }
 .header img{
-  margin-left: 45%;
+  margin-right: 35%;
+  cursor: pointer;
 }
+.nav-bar{
+  display: inline-block;
+  list-style: none;
+  border: none;
+  border-radius: 50px;
+  padding: 0px 60px;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  text-decoration: none;
+}
+.nav-bar button{
+  color: white;
+  border: none;
+  background-color: black;
+  border-radius: 50px;
+  font-size: 25px;
+}
+.nav-bar :hover{
+  background-color: red;
+}
+
 .main{
   width: 100%;
   text-align: center;

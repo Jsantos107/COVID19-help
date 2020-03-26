@@ -3,7 +3,8 @@ import './App.css';
 import WorldMap from './components/WorldMap';
 import SideCountries from './components/SideCountries';
 import CountryInfo from './components/CountryInfo';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import HomePage from './components/HomePage'
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
  class App extends Component {
    state ={
      covidInfo:[],
@@ -28,9 +29,21 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
         <div className="App">
             <header className='header'>
               <img src='./CenterCovidLogo.png' alt='covid-19HELP' />
+              <nav className="nav-bar">
+                <button>
+                  <Link to='/' style={{textDecoration:'none', color:'white'}}>Home</Link>
+                </button>
+                <button>
+                  <Link to='/Map' style={{textDecoration:'none', color:'white'}}>Maps</Link>
+                </button> 
+              </nav>
+
             </header>
             <main className='main'>
               <Switch>
+                <Route exact path='/'>
+                  <HomePage />
+                </Route>
                 <Route exact path='/map'>
                 <SideCountries covidInfo={this.state.covidInfo} showCountry={this.showCountry}/>
                 <WorldMap />
