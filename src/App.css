@@ -10,10 +10,10 @@ body{
   display: flex;
   justify-content: flex-end;
   margin: 0px 0px 0px;
-  padding: 30px -10%;
+  padding: 20px -10%;
 }
 .header img{
-  margin-right: 35%;
+  margin-right: 30%;
   cursor: pointer;
 }
 .nav-bar{
@@ -44,6 +44,31 @@ body{
   flex-direction: row;
 }
 
+.home-page{
+  padding: 0px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: 900;
+}
+.home-page p{
+  margin: 2px 40%;
+  text-align: left;
+}
+.home-page button{
+  background-color: rgb(255, 139, 31);
+  border: none;
+  margin: 50px 40%;
+  width: 20%;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+.home-page button:hover{
+  background-color: red;
+}
 .side-countries{
   background-color: black;
   color: white;
