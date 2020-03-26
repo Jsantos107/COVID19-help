@@ -3,7 +3,8 @@ import './App.css';
 import WorldMap from './components/WorldMap';
 import SideCountries from './components/SideCountries';
 import CountryInfo from './components/CountryInfo';
-import HomePage from './components/HomePage'
+import HomePage from './components/HomePage';
+import SmilePage from'./components/SmilePage';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
  class App extends Component {
    state ={
@@ -35,7 +36,15 @@ import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
                 </button>
                 <button>
                   <Link to='/Map' style={{textDecoration:'none', color:'white'}}>Maps</Link>
-                </button> 
+                </button>
+                <button>
+                  <Link to='/smile' style={{textDecoration:'none', color:'white'}}>Smile</Link>
+                </button>
+                <button>
+                  <a href='https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html'  
+                  style={{textDecoration:'none', color:'white'}}>Stressing</a>
+                </button>
+
               </nav>
 
             </header>
@@ -50,6 +59,9 @@ import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
                 {this.state && this.state.selectedCountry &&
                   <CountryInfo country={this.state.selectedCountry}/>
                 }
+                </Route>
+                <Route exact path='/smile'>
+                  <SmilePage />
                 </Route>
             </Switch>
           </main>

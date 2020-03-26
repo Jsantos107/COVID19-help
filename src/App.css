@@ -13,7 +13,7 @@ body{
   padding: 20px -10%;
 }
 .header img{
-  margin-right: 30%;
+  margin-right: 20%;
   cursor: pointer;
 }
 .nav-bar{
@@ -60,7 +60,7 @@ body{
 .home-page button{
   background-color: rgb(255, 139, 31);
   border: none;
-  margin: 50px 40%;
+  margin: 10px 40%;
   width: 20%;
   border-radius: 50px;
   font-size: 25px;
