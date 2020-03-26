@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { GoogleApiWrapper, InfoWindow, Marker, Map } from 'google-maps-react';
+import { GoogleApiWrapper, Map } from 'google-maps-react';
 
 const mapStyles = {
   width: '50%',
