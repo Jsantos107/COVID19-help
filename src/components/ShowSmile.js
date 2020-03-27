@@ -13,7 +13,7 @@ export default function ShowSmile({photoInfo, selectPhoto, jokeInfo, selectJoke,
             selectJoke(jokeInfo)
         }
         else{
-            const joke = {joke: "Something went wrong please reload the page to try again."}
+            const joke = {joke: "Something went wrong, please smile again."}
             selectPhoto(photo)
             selectJoke(joke)
         }
