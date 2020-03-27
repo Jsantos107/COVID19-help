@@ -17,7 +17,7 @@ export default function CountryInfo(){
             </button>
             <button>
                 <a href='https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html'  
-                style={{textDecoration:'none', color:'white', fontWeight:'900'}}>Stressing</a>
+                style={{textDecoration:'none', color:'white', fontWeight:'900'}}>Stress</a>
             </button>
 
         </div>

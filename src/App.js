@@ -42,7 +42,7 @@ import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
                 </button>
                 <button>
                   <a href='https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html'  
-                  style={{textDecoration:'none', color:'white'}}>Stressing</a>
+                  style={{textDecoration:'none', color:'white'}}>Stress</a>
                 </button>
 
               </nav>
