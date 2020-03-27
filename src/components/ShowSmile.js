@@ -1,4 +1,5 @@
 import React from 'react'
+import { findAllByDisplayValue } from '@testing-library/react'
 
 export default function ShowSmile({photoInfo, selectPhoto, jokeInfo, selectJoke, reload}){
 
@@ -17,9 +18,9 @@ export default function ShowSmile({photoInfo, selectPhoto, jokeInfo, selectJoke,
             selectJoke(joke)
         }
     }
+
     return(
         <div className="smile">
-            {/* <button className='click-me-button' onClick={() => randomPic() }> CLICK ME! </button> */}
             <button className='smile-again-button' onClick={()=> {reload()
                 randomPic()}}> Smile Again? </button>
         </div>
