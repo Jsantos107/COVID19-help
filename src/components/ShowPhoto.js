@@ -4,7 +4,7 @@ export default function ShowPhoto({photo}){
 
     return(
         <div className="smile-photo">
-            <img src={photo.download_url} alt={photo.author} height='250px'/>
+            <img src={photo.download_url} alt={photo.author} height='300px'/>
         </div>
     )
 }
