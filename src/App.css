@@ -13,7 +13,7 @@ body{
   padding: 20px -10%;
 }
 .header img{
-  margin-right: 20%;
+  margin-right: 21%;
   cursor: pointer;
 }
 .nav-bar{
@@ -109,7 +109,6 @@ body{
   position: fixed;
   overflow: scroll;
   scroll-behavior: smooth;
-  /* padding-left: 0%; */
 }
 .country-info h1{
   color: rgb(236, 114, 0);
@@ -126,10 +125,10 @@ body{
 }
 
 .smile-page{
-  padding: 0px -10px;
+  padding: 0px 10px;
   width: 500px;
   display: flex;
-  margin: 10px 38%;
+  margin: 10px 36%;
   flex-direction: column;
   font-size: 25px;
 }
@@ -146,8 +145,9 @@ body{
   background-color: rgb(212, 0, 0);
 }
 .smile-joke{
-  margin: 0px -150px 0px;
-  width: 50rem;
-  height: 340px;
+  text-align: left;
+  margin: 0px -170px 0px;
+  width: 55rem;
+  height: 280px;
   overflow: scroll;
 }

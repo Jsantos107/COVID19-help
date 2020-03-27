@@ -42,12 +42,15 @@ export default class SmilePage extends Component{
         return(
             <div className="smile-page">
                 <h1>Smile</h1>
+                
                 <ShowSmile photoInfo={this.state.photoInfo} jokeInfo={this.state.jokeInfo} 
                 selectJoke={this.selectJoke} selectPhoto={this.selectPhoto} 
                 reload={this.reloadDocument}/>
+
                 {this.state && this.state.thePhoto &&
                   <ShowPhoto photo={this.state.thePhoto}/>
                 }
+
                 {this.state && this.state.thePhoto &&
                   <ShowJoke theJoke={this.state.theJoke}/>
                 }
