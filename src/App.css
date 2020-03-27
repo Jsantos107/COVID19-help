@@ -51,14 +51,14 @@ body{
   justify-content: center;
   flex-direction: column;
   font-size: 25px;
-  font-weight: 900;
+  font-weight: 600;
 }
 .home-page p{
   margin: 2px 40%;
   text-align: left;
 }
 .home-page button{
-  background-color: rgb(255, 139, 31);
+  background-color: rgb(255, 123, 0);
   border: none;
   margin: 10px 40%;
   width: 20%;
@@ -67,7 +67,7 @@ body{
 }
 
 .home-page button:hover{
-  background-color: red;
+  background-color: rgb(212, 0, 0);
 }
 .side-countries{
   background-color: black;
@@ -123,4 +123,13 @@ body{
   padding: 15px;
   text-align: center;
   width: 100%;
+}
+
+.smile-page{
+  padding: 0px 0px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 25px;
 }
