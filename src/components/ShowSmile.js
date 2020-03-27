@@ -1,4 +1,5 @@
 import React from 'react'
+import { findAllByDisplayValue } from '@testing-library/react'
 
 export default function ShowSmile({photoInfo, selectPhoto, jokeInfo, selectJoke, reload}){
 
@@ -7,16 +8,21 @@ export default function ShowSmile({photoInfo, selectPhoto, jokeInfo, selectJoke,
         const i = Math.floor(Math.random() * Math.floor(max))
         const photo = photoInfo[i]
 
+        return selectPhoto(photo), joke()
+    }
+
+    const joke = () => {
         if(jokeInfo.type === "single")
-        return selectPhoto(photo), selectJoke(jokeInfo)
+            return  selectJoke(jokeInfo)
         else{
-            const joke = {joke: "Something went wrong please reload the page to try again."}
-            return selectPhoto(photo), selectJoke(joke)
+            const joke = {joke: "Something went wrong please smile again."}
+            return selectJoke(joke)
         }
     }
+
     return(
         <div className="smile">
-            <button className='click-me-button' onClick={() => randomPic() }> CLICK ME! </button>
+            <button className='click-me-button' onClick={() => randomPic()}> CLICK ME! </button>
             <button className='smile-again-button' onClick={()=> reload()}>Smile Again?</button>
         </div>
     )
