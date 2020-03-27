@@ -45,7 +45,7 @@ body{
 }
 
 .home-page{
-  padding: 0px 0px;
+  padding: 20px 0px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -146,9 +146,8 @@ body{
   background-color: rgb(212, 0, 0);
 }
 .smile-joke{
-  margin: 10px -120px 0px;
-  text-align: left;
-  width: 55rem;
-  height: 256px;
+  margin: 0px -150px 0px;
+  width: 50rem;
+  height: 340px;
   overflow: scroll;
 }

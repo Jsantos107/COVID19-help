@@ -30,8 +30,13 @@ export default class SmilePage extends Component{
             theJoke: joke
         })
     }
+    
+    reloadDocument = () => {
+        fetch('https://sv443.net/jokeapi/category/programming')
+        .then(response =>response.json())
+        .then(jokeInfo => this.setState({jokeInfo}))
+    }
 
-    reloadDocument = () => document.location.reload()
 
     render(){
         return(
