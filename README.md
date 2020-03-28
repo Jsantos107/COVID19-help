@@ -7,7 +7,6 @@
 * [Setup](#setup)
 * [Features](#features)
 * [Contact](#contact)
-* [License](#license)
 
 ## General info
 Covid-19 Help is a single page application where users can see the latest updates of how far the virus has spread. Users can also get a laugh out of the smile page and learn how to cope with pandemic stress with the "stress" feature. 
@@ -34,5 +33,4 @@ npm start
 * Learn to cope with stress during the pandemic
 
 ## Contact
-
-## License
+Created by [Jorge Santos](https://www.linkedin.com/in/santos-jorge)
