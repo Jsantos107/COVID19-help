@@ -8,7 +8,7 @@ export default function CountryInfo({country}){
             <h2>Country:{country.Country}</h2>
             <h3>Total confirmed: {country.TotalConfirmed}</h3>
             <h3>Total Deaths: {country.TotalDeaths}</h3>
-            <h3>Total Recovered: [country.TotalRecovered</h3>
+            <h3>Total Recovered: {country.TotalRecovered}</h3>
         </div>
     )
 }
