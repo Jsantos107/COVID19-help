@@ -1,5 +1,4 @@
-# COVID19-font-end
-
+# COVID19-help
 ## Table of contents
 * [General info](#general-info)
 * [Intro Video](#intro-video)
