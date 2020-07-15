@@ -57,18 +57,7 @@ import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
                 <SideCountries covidInfo={this.state.covidInfo} showCountry={this.showCountry}/>
                 <WorldMap />
                 {this.state && this.state.selectedCountry &&
-                  <Coun        <img src={logo} className="App-logo" alt="logo" />
-                  <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                  </p>
-                  <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Learn React
-                  </a>tryInfo country={this.state.selectedCountry}/>
+                  <CountryInfo country={this.state.selectedCountry}/>
                 }
                 </Route>
                 <Route exact path='/smile'>
