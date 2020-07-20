@@ -1,5 +1,5 @@
 import React from 'react'
-import { findAllByDisplayValue } from '@testing-library/react'
+// import { findAllByDisplayValue } from '@testing-library/react'
 
 export default function ShowSmile({photoInfo, selectPhoto, jokeInfo, selectJoke, reload}){
 
