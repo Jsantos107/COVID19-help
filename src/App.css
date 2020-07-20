@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap');
 
-body{
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  overflow: hidden;
+html {
+  scroll-behavior: smooth;
 }
-.header{
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.header {
   background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.header img{
+
+.header img {
   cursor: pointer;
 }
-.nav-bar{
+
+.nav-bar {
   display: inline-block;
   border: none;
   border-radius: 50px;
@@ -22,49 +28,48 @@ body{
   margin-bottom: 20px;
   text-align: center;
 }
-.nav-bar button{
+
+.nav-bar button {
   border: none;
   background-color: black;
   border-radius: 50px;
   font-size: 25px;
 }
-.nav-bar button:hover{
+
+.nav-bar button:hover {
   background-color: rgb(255, 123, 0);
   box-shadow: 0 0px 15px 0 rgb(255, 123, 0);
 }
-.main{
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-}
 
-.home-page{
-  padding: 20px 0px;
-  width: 100%;
+.home-page {
   display: flex;
   justify-content: center;
+  text-align: center;
   flex-direction: column;
-  font-size: 25px;
-  font-weight: 600;
-}
-.home-page p{
-  margin: 2px 40%;
-  text-align: left;
-}
-.home-page button{
-  background-color: rgb(255, 123, 0);
-  border: none;
-  margin: 10px 40%;
-  width: 20%;
-  border-radius: 50px;
   font-size: 25px;
 }
 
-.home-page button:hover{
+.home-page p {
+  font-weight: 600;
+  width: 50%;
+  align-self: center;
+}
+
+.home-page button {
+  background-color: rgb(255, 123, 0);
+  border: none;
+  align-self: center;
+  margin: 5px;
+  width: 20%;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.home-page button:hover {
   background-color: rgb(212, 0, 0);
 }
-.side-countries{
+
+.side-countries {
   background-color: black;
   color: white;
   height: 83%;
@@ -73,28 +78,30 @@ body{
   overflow: scroll;
   scroll-behavior: smooth;
 }
-.side-countries-title{
+
+.side-countries-title {
   color: red;
   background-color: black;
   position: sticky;
   top: 0px;
 }
-.side-countries-list{
+
+.side-countries-list {
   list-style: none;
 }
 
-.side-countries-list li:hover{
+.side-countries-list li:hover {
   cursor: pointer;
   background-color: red;
-  
+
 }
 
 .side-countries-list li:active {
   cursor: pointer;
   background-color: yellow;
-} 
+}
 
-.country-info{
+.country-info {
   background-color: black;
   color: white;
   font-size: 100%;
@@ -105,10 +112,12 @@ body{
   overflow: scroll;
   scroll-behavior: smooth;
 }
-.country-info h1{
+
+.country-info h1 {
   color: rgb(236, 114, 0);
 }
-.country-info h2{
+
+.country-info h2 {
   color: red;
 }
 
@@ -119,7 +128,7 @@ body{
   width: 100%;
 }
 
-.smile-page{
+.smile-page {
   padding: 0px 10px;
   width: 500px;
   display: flex;
@@ -127,7 +136,8 @@ body{
   flex-direction: column;
   font-size: 25px;
 }
-.smile-page button{
+
+.smile-page button {
   background-color: rgb(255, 123, 0);
   border: none;
   margin: 10px 10% 5px;
@@ -136,10 +146,11 @@ body{
   font-size: 25px;
 }
 
-.smile-page button:hover{
+.smile-page button:hover {
   background-color: rgb(212, 0, 0);
 }
-.smile-joke{
+
+.smile-joke {
   text-align: left;
   margin: 0px -170px 0px;
   width: 55rem;
